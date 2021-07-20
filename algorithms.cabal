@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      DataStructures.Graph
       Lib
       Searching.BinarySearch
   other-modules:
@@ -39,6 +40,7 @@ test-suite spec
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      DataStructures.GraphSpec
       Searching.BinarySearchSpec
       Paths_algorithms
   hs-source-dirs:
